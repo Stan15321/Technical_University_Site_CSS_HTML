@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-
+    scale=1.0">
+    <title>Technical University Plovdiv</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+        <a href="index.html"><img src="images/400px-Tu-sofia-logo.svg.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">COURSE</a></li>
+            <li><a href="">BLOG</a></li>
+            <li><a href="">CONTACT</a></li>
+        </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Technical University of Sofia - Branch Plovdiv</h1>
+            <p>The Plovdiv Branch was established in 1986 as an affiliated unit to the Technical University - Sofia.<br> It became an independent legal entity by Decision No: 30 of 13 June 1990 of the Council of Ministers.</p>
+            <a href="" class="hero-btn"> Visit Us to know more </a>
+        </div>
+    </section>
+
+    <section class="course">
+        <h1>Courses We offer</h1>
+        <p>Our Structure:<br> Faculty of Electronics and Automation<br>Faculty of Mechanical Engineering </p>
+
+        <div class="row">
+            <div class="course-col"
+            <h3>The Computer Systems Technology</h3>
+            <p>The Computer Systems Technology program prepares technology professionals to manage computer systems and develop applications in a variety of settings.</p>
+            <div class="course-col"
+            <h3>Electronics</h3>
+            <p>Electronics is a branch of physics and electrical engineering that deals with the emission, behaviour and effects of electrons using electronics.</p>
+            <div class="course-col"
+            <h3>Electrical Engineering</h3>
+            <p>During the last ten years the interest in the Electrical Engineering degree course has been increasingly growing up.</p>
+        </div>
+    </section>
+<script>
+
+var navLinks = document.getElementById("navLinks");
+function showMenu(){
+    navLinks.style.right = "0";
+}
+function hideMenu(){
+    navLinks.style.right = "-200px";   
+}
+
+</script>
+</body>
+
+</html>
