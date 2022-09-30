@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-
+    scale=1.0">
+    <title>Technical University Plovdiv</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="subheader">
+        <nav>
+        <a href="index.html"><img src="images/400px-Tu-sofia-logo.svg.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">COURSE</a></li>
+            <li><a href="">BLOG</a></li>
+            <li><a href="">CONTACT</a></li>
+        </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+    <section class="about-us">
+
+        <div class="row">
+            <div class="about-col">
+                <h1>One of The Top 3 Universities in Bulgaria</h1>
+                <p>
+                    The Branch as such is an affiliated structure of Technical University - Sofia, providing training in Bachelor's, Master's and Doctor's degree courses affirmed by the Council of Ministers. The Branch has contemporary facilities including modern lecture halls and laboratories, an up-to-date library with over 100000 volumes of educational and specialized technical literature, canteens and a student hostel. 
+                </p>
+                <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="images/DSC_7327-1024x683.jpg"
+            </div>
+        </div>
+
+    </section>
+
+    
+    
+    
+   
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Technical University - Sofia, Plovdiv Branch,
+            25 Tsanko Diustabanov St.<br>
+            Plovdiv, 4000, Bulgaria<br> 
+            tel: +359 32 659 558<br>
+            fax: +359 32 626 886<br>
+            e-mail: branch@tu-plovdiv.bg</p>
+            <img src="images/email.png">
+            <img src="images/fax.png">
+            <img src="images/phone-call.png">
+            <img src="images/adress.png">
+        
+    </section>
+<script>
+
+var navLinks = document.getElementById("navLinks");
+function showMenu(){
+    navLinks.style.right = "0";
+}
+function hideMenu(){
+    navLinks.style.right = "-200px";   
+}
+
+</script>
+</body>
+
+</html>
