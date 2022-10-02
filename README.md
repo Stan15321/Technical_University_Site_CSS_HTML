@@ -1,6 +1,6 @@
 ## Making_Site_For_TechnicalUniversity_CSS_HTML
 
-## Ready Project
+## Ready Project.
 
 ## I used:
 
