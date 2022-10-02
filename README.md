@@ -1,8 +1,8 @@
 ## Making_Site_For_TechnicalUniversity_CSS_HTML
 
-The project is not ready.
+## Ready Project
 
-For now i used:
+## I used:
 
 ## CSS
 
