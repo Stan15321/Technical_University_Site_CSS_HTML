@@ -1,4 +1,4 @@
-## Making_Site_For_TechnicalUniversity_CSS_HTML_PHP
+## Site For The Technical University
 
 ## Ready Project.
 
