@@ -1,6 +1,4 @@
-## Site For The Technical University
-
-## Ready Project.
+## Technical University Website(by Me)
 
 ## I used:
 
